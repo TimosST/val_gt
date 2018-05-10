@@ -1,0 +1,3 @@
+<launch>
+        <param name="robot_description" command="cat $(find gt_val_sim)/share/urdf/valkyrie_sim_gazebo_sync.urdf" />
+</launch>
